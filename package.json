@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "firebase": "^10.13.1",
     "mqtt": "^5.10.1"
   }
 }

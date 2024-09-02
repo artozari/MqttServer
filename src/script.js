@@ -1,5 +1,5 @@
 // Configuración del broker MQTT
-const brokerUrl = "ws://test.mosquitto.org:8080/mqtt"; // URL del broker MQTT
+const brokerUrl = "wss://test.mosquitto.org:1883"; // URL del broker MQTT
 const clientId = "myClient"; // ID del cliente
 
 // Crear una instancia del cliente MQTT
