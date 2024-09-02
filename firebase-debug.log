@@ -1,0 +1,21 @@
+[debug] [2024-09-02T21:57:40.936Z] ----------------------------------------------------------------------
+[debug] [2024-09-02T21:57:40.957Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\arto_\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-09-02T21:57:40.958Z] CLI Version:   13.16.0
+[debug] [2024-09-02T21:57:40.958Z] Platform:      win32
+[debug] [2024-09-02T21:57:40.958Z] Node Version:  v20.15.1
+[debug] [2024-09-02T21:57:40.959Z] Time:          Mon Sep 02 2024 18:57:40 GMT-0300 (hora estándar de Argentina)
+[debug] [2024-09-02T21:57:40.959Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-02T21:57:40.977Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-02T21:57:40.978Z] > authorizing via signed-in user (artozari@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\arto_\Documents\Proyectos\MqttServ
+
