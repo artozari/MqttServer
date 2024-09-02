@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interfaz MQTT</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Interfaz MQTT</h1>
+    </header>
+    <main>
+      <form id="publish-form">
+        <label for="topic">Tema:</label>
+        <input type="text" id="topic" name="topic" />
+        <label for="message">Mensaje:</label>
+        <input type="text" id="message" name="message" />
+        <button id="publish-btn" type="submit">Publicar</button>
+      </form>
+      <section id="subscriptions">
+        <h2>Suscripciones</h2>
+        <ul id="subscription-list">
+          <!-- lista de suscripciones -->
+        </ul>
+        <button id="subscribe-btn">Suscribirse</button>
+        <button id="unsubscribe-btn">Cancelar suscripción</button>
+      </section>
+      <section id="publications">
+        <h2>Publicaciones</h2>
+        <ul id="publication-list">
+          <!-- lista de publicaciones -->
+        </ul>
+      </section>
+      <button id="connect-btn">Conectar</button>
+      <button id="disconnect-btn" disabled>Desconectar</button>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/5.10.1/mqtt.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
