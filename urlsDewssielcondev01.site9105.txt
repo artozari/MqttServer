@@ -1,0 +1,23 @@
+ws://sielcondev01.site  //  insecure
+ws://sielcondev01.site:9105  //  insecure 
+ws://sielcondev01.site:9105/mqtt  //  insecure 
+ws://sielcondev01.site:9105/wss  //  insecure
+
+wss://sielcondev01.site  //  WebSocket connection to 'wss://sielcondev01.site/' failed: 
+wss://sielcondev01.site:9105  //  WebSocket connection to 'wss://sielcondev01.site:9105/' failed: 
+wss://sielcondev01.site:9105/mqtt  //  WebSocket connection to 'wss://sielcondev01.site:9105/mqtt' failed: 
+wss://sielcondev01.site:9105/ws  // WebSocket connection to 'wss://sielcondev01.site:9105/ws' failed: 
+
+mqtt://sielcondev01.site  //  insecure
+mqtt://sielcondev01.site:9105  //  insecure 
+mqtt://sielcondev01.site:9105/mqtt  //  insecure 
+mqtt://sielcondev01.site:9105/ws  //  insecure
+mqtt://sielcondev01.site:9105/wss  //  insecure
+
+ws://sielcondev01.site:9105/wss insecure 
+
+wss://test.mosquitto.org:8081  //  _____--- EL BUENO ---_______
+
+ws://sielcondev01.site:8081
+
+wss://sielcondev01.site:8081  //  WebSocket connection to 'wss://sielcondev01.site:8080/' failed: 
