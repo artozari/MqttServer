@@ -1,5 +1,5 @@
 // Configuración del broker MQTT
-const brokerUrl = "ws://sielcondev01.site:9105"; // URL del broker MQTT
+const brokerUrl = "wss://sielcondev01.site:9105"; // URL del broker MQTT
 const clientId = "myClient"; // ID del cliente
 
 // Crear una instancia del cliente MQTT
