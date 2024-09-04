@@ -1,6 +1,6 @@
 // Configuración del broker MQTT
 const brokerUrl = "wss://test.mosquitto.org:8081"; // URL del broker MQTT
-const clientId = "myClient"; // ID del cliente
+const clientId = Math.round(Math.random() * 10); // ID del cliente
 
 // Crear una instancia del cliente MQTT
 const client = mqtt.connect(brokerUrl);

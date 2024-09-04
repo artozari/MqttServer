@@ -16,8 +16,12 @@ mqtt://sielcondev01.site:9105/wss  //  insecure
 
 ws://sielcondev01.site:9105/wss insecure 
 
+wss://test.mosquitto.org  //  WebSocket connection to 'wss://test.mosquitto.org/' failed:
+wss://test.mosquitto.org:8080  //  WebSocket connection to 'wss://test.mosquitto.org:8080/' failed: 
 wss://test.mosquitto.org:8081  //  _____--- EL BUENO ---_______
+
 
 ws://sielcondev01.site:8081
 
-wss://sielcondev01.site:8081  //  WebSocket connection to 'wss://sielcondev01.site:8080/' failed: 
+wss://sielcondev01.site:8081  //  WebSocket connection to 'wss://sielcondev01.site:8081/' failed: 
+wss://sielcondev01.site:9105  //  --- local funciona
