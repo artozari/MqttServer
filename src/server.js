@@ -2,9 +2,9 @@ const mqtt = require("mqtt");
 const client = mqtt.connect("mqtt://test.mosquitto.org");
 
 client.on("connect", () => {
-  client.subscribe("NadineL", (err) => {
+  client.subscribe("AngelSMC", (err) => {
     if (!err) {
-      client.publish("NadineL", "Hola soy Nadine mqtt");
+      client.publish("AngelSMC", "Hola soy Angel mqtt");
     }
   });
 });
